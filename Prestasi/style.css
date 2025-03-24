@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+:root {
+    --miz-brand: #207ce6;
+    --miz-grand-rgb: 284, 54, 145;
+    --miz-dark: #212237;
+    --miz-body: #989898;
+    -transition: all .6s cubic-berzier(.165, .84, .44, 1);
+    -shadow: 0px, 15px, 30px, rgba(0,0,0,0 1);
+  }
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+nav{
+    background-color: #ff3825;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+}
+.nasional{
+    overflow: hidden;
+    position: relative;
+}
+.nasional.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
